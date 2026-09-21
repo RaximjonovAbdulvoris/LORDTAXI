@@ -21,7 +21,9 @@ WELCOME_TEXT = (
     "Quyidagi menyulardan birini tanlang:\n\n"
     "📝 *Ulanish uchun Ariza* — Haydovchilik uchun ariza\n"
     "🎨 *Brend Ariza* — Mashinangizni brendlash uchun ariza\n"
-    "💰 *PUL YECHISH BOTI* — Pul yechish va aloqa ma'lumotlari"
+    "💰 *PUL YECHISH BOTI* — Pul yechish va aloqa ma'lumotlari\n"
+    "📞 *Bog'lanish uchun* — Telefon raqamlari, Telegram va ijtimoiy tarmoqlar\n"
+    "📍 *Ofis manzili* — Ofis rasmi, manzili va Yandex xaritada ochish"
 )
 
 PAYOUT_TEXT = (
