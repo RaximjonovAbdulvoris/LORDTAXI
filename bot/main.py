@@ -85,6 +85,8 @@ def main() -> None:
         .build()
     )
 
+        register_legenda_info(app)
+
     app.add_handler(CommandHandler("start", start))
     app.add_handler(build_payout_handler())
     app.add_handler(build_driver_conversation())
