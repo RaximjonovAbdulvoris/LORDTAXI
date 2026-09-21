@@ -26,7 +26,7 @@ OFFICE_TEXT = (
 OFFICE_PHOTO = (
     Path(__file__).resolve().parents[1]
     / "templates"
-    / "legenda_office.png"
+    / "legenda_office.jpg"
 )
 
 
