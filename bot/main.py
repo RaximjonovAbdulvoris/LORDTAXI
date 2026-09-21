@@ -11,6 +11,7 @@ from bot.handlers.driver import build_driver_conversation
 from bot.handlers.operator import register_operator_handlers
 from bot.handlers.start import build_payout_handler, start
 from bot.warmup import warmup_templates
+from bot.handlers.legenda_info import register_legenda_info
 
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
