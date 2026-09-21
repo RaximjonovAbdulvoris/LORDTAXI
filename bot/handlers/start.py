@@ -6,7 +6,13 @@ MENU_BRAND = "🎨 Brend Ariza"
 MENU_PAYOUT = "💰 PUL YECHISH BOTI"
 
 MAIN_KEYBOARD = ReplyKeyboardMarkup(
-    [[MENU_DRIVER], [MENU_BRAND], [MENU_PAYOUT]],
+    [
+        [MENU_DRIVER],
+        [MENU_BRAND],
+        [MENU_PAYOUT],
+        ["📞 Bog'lanish uchun"],
+        ["📍 Ofis manzili"],
+    ],
     resize_keyboard=True,
 )
 
