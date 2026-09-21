@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from telegram import Update
+from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.ext import ContextTypes, MessageHandler, filters
 
 
@@ -22,6 +22,8 @@ OFFICE_TEXT = (
     "MANZIL:\n"
     "QATORTOL BEKATI"
 )
+
+OFFICE_MAP_URL = "https://yandex.uz/maps/-/CXAOiJ6B"
 
 OFFICE_PHOTO = (
     Path(__file__).resolve().parents[1]
@@ -50,6 +52,9 @@ async def show_legenda_office(
             photo=photo,
             caption=OFFICE_TEXT,
             parse_mode="HTML",
+            reply_markup=InlineKeyboardMarkup([
+                [InlineKeyboardButton("Yandex xaritada ochish", url=OFFICE_MAP_URL)]
+            ]),
         )
 
 
