@@ -28,7 +28,7 @@ logger = logging.getLogger(__name__)
 READY_TEXT = (
     "✅ WB LORD TAXI ga arizangiz muvaffaqiyatli qabul qilindi!\n\n"
     "📩 Iltimos, SMS xabarnomani kuting.  \n"
-    "Agar savollaringiz bo‘lsa, @WBLEGENDATAXI orqali murojaat qilishingiz mumkin."
+    "Agar savollaringiz bo‘lsa, @WBLordAdmin orqali murojaat qilishingiz mumkin."
 )
 
 
