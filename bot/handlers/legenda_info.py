@@ -5,25 +5,24 @@ from telegram.ext import ContextTypes, MessageHandler, filters
 
 
 CONTACT_TEXT = (
-    "<b>WB LEGENDA — bog‘lanish uchun</b>\n\n"
-    "☎️ ALOQA: +998781505050\n"
-    "📱 ALOQA: +998931354484\n"
-    "📨 TELEGRAM: @WBLEGENDATAXI\n\n"
+    "<b>WB LORD — bog‘lanish uchun</b>\n\n"
+    "☎️ ALOQA: +998505909449\n"
+    "📨 TELEGRAM: @wblordadmin\n\n"
     "📣 TELEGRAM KANAL:\n"
-    "https://t.me/WBLEGENDA_KANAL\n\n"
+    "https://t.me/wblordtaxi\n\n"
     "📸 INSTAGRAM: "
-    '<a href="https://www.instagram.com/wb_legenda_taxi/">'
-    "@WB_LEGENDA_TAXI</a>"  
+    '<a href="https://www.instagram.com/wblordtaxi/">'
+    "@wblordtaxi</a>"  
 )
 
 OFFICE_TEXT = (      
     "<b>WB LEGENDA (TOSHKENT OFISI)</b>\n\n"
-    "📍 CHILONZOR 8 - kv 1 - dom\n\n"
-    "MANZIL:\n"
-    "QATORTOL BEKATI"
+    "📍 Firdavsiy 9-uy\n\n"
+    "Mo'ljal:\n"
+    "Remix club ro'parasida"
 )
 
-OFFICE_MAP_URL = "https://yandex.uz/maps/-/CXAOiJ6B"
+OFFICE_MAP_URL = "https://maps.app.goo.gl/Fzdc2HPc7i1hSiHE9"
 
 OFFICE_PHOTO = (
     Path(__file__).resolve().parents[1]
