@@ -16,7 +16,7 @@ CONTACT_TEXT = (
 )
 
 OFFICE_TEXT = (      
-    "<b>WB LEGENDA (TOSHKENT OFISI)</b>\n\n"
+    "<b>WB LORD (SAMARQAND)</b>\n\n"
     "📍 Firdavsiy 9-uy\n\n"
     "Mo'ljal:\n"
     "Remix club ro'parasida"
